@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env
+.env
+**/.env
+
+# Build
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# SQLite DB (but allow keeping DB in repo if you want)
+backend/data/*.db
+
+# Editor
+.vscode/
+.idea/
